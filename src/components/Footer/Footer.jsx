@@ -6,8 +6,8 @@ function Footer() {
     <div className='footer' id='footer'>
          <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
-                <p>Enjoy the convenience of delicious, ready-to-eat meals with our premium frozen food selection. Savor the taste of freshness and quality, straight from your freezer to your table.</p>
+                <h1 className='logo'>FOODie.</h1>
+                <p>Craving something delicious? Swing by our fast-food joint for a taste of happiness—where every bite is a treat and satisfaction is guaranteed!</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                 </div>
@@ -26,12 +26,12 @@ function Footer() {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>545555545455</li>
-                    <li>contact@zeeshanfoods.com</li>
+                    <li>foodie.com</li>
                 </ul>
             </div>
          </div>
          <hr />
-         <p className='footer-copyright'>Copyright 2024 &copy; ZeeshanFoods.com - All Right Reserved.</p>
+         <p className='footer-copyright'>Copyright 2024 &copy; foodie.com - All Right Reserved.</p>
     </div>
   )
 }

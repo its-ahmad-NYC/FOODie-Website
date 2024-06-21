@@ -20,6 +20,7 @@
     font-weight: 500;
     color: white;
     font-size: max(4.5vw, 22px);
+    text-shadow: 2px 2px 8px #000;
 }
 .header-contents p{
     color: white;
